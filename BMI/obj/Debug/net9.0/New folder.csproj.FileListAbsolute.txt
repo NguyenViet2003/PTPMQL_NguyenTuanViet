@@ -289,3 +289,4 @@ c:\Users\Admin\Desktop\PTPMQL_NguyenViet\BMI\obj\Debug\net9.0\refint\New folder.
 c:\Users\Admin\Desktop\PTPMQL_NguyenViet\BMI\obj\Debug\net9.0\New folder.pdb
 c:\Users\Admin\Desktop\PTPMQL_NguyenViet\BMI\obj\Debug\net9.0\New folder.genruntimeconfig.cache
 c:\Users\Admin\Desktop\PTPMQL_NguyenViet\BMI\obj\Debug\net9.0\ref\New folder.dll
+C:\Users\Admin\Desktop\PTPMQL_NguyenViet\BMI\obj\Debug\net9.0\New folder.sourcelink.json
