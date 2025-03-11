@@ -18,7 +18,7 @@ namespace DEMOMVC.Models
 
         public override void Display()
         {
-            base.Display(); // Gọi phương thức Display() từ Person
+            base.Display(); 
             Console.WriteLine($"EmployeeId: {EmployeeId}");
             Console.WriteLine($"Age: {Age}");
         }

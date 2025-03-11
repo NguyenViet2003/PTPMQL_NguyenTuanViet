@@ -4,7 +4,7 @@ namespace BMI.Models
     {
         public float Weight { get; set; } // Cân nặng (kg)
         public float Height { get; set; } // Chiều cao (m)
-        public float BMI { get; set; } // Chỉ số BMI
+        public float BMI { get; set; } 
 
         public string GetBMICategory()
         {
