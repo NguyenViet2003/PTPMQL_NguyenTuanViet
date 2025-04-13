@@ -1,7 +1,0 @@
-C:\Users\Admin\Desktop\PTPMQL_NguyenViet\BMI\obj\Debug\net9.0\BMI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Admin\Desktop\PTPMQL_NguyenViet\BMI\obj\Debug\net9.0\BMI.AssemblyInfoInputs.cache
-C:\Users\Admin\Desktop\PTPMQL_NguyenViet\BMI\obj\Debug\net9.0\BMI.AssemblyInfo.cs
-C:\Users\Admin\Desktop\PTPMQL_NguyenViet\BMI\obj\Debug\net9.0\BMI.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Desktop\PTPMQL_NguyenViet\BMI\obj\Debug\net9.0\BMI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Admin\Desktop\PTPMQL_NguyenViet\BMI\obj\Debug\net9.0\BMI.RazorAssemblyInfo.cache
-C:\Users\Admin\Desktop\PTPMQL_NguyenViet\BMI\obj\Debug\net9.0\BMI.RazorAssemblyInfo.cs

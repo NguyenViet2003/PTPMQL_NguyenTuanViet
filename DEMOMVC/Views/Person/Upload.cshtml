@@ -1,0 +1,33 @@
+@{
+    ViewData["Title"] = "Upload Excel File";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="card mt-3">
+    <div class="card-body">
+        <form asp-action="Upload" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="file">Choose Excel File (.xls or .xlsx)</label>
+                <input type="file" name="file" id="file" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Upload</button>
+        </form>
+
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="mt-3">
+                <ul class="text-danger">
+                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        <li>@error.ErrorMessage</li>
+                    }
+                </ul>
+            </div>
+        }
+    </div>
+</div>
+
+<div class="mt-4">
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
