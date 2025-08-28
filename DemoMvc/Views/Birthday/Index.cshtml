@@ -1,0 +1,21 @@
+@model DemoMVC.Models.NguoiDung
+
+<h2>Nhập thông tin</h2>
+
+<form asp-action="Index" method="post">
+    <div>
+        <label asp-for="HoTen"></label>
+        <input asp-for="HoTen" />
+        <span asp-validation-for="HoTen" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="NamSinh"></label>
+        <input asp-for="NamSinh" />
+        <span asp-validation-for="NamSinh" class="text-danger"></span>
+    </div>
+    <button type="submit">Gửi</button>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

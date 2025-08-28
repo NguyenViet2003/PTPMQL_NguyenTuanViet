@@ -1,0 +1,32 @@
+@model DemoMVC.Models.Calculation
+
+<h2>Máy tính</h2>
+
+<form asp-controller="Calculator" asp-action="Index" method="post">
+    <div>
+        <label asp-for="Number1">Số thứ nhất:</label>
+        <input asp-for="Number1" type="number" step="any" required />
+    </div>
+    <div>
+        <label asp-for="Number2">Số thứ hai:</label>
+        <input asp-for="Number2" type="number" step="any" required />
+        <span asp-validation-for="Number2" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Operation">Phép tính:</label>
+        <select asp-for="Operation">
+            <option value="add">Tổng</option>
+            <option value="subtract">Hiệu</option>
+            <option value="multiply">Tích</option>
+            <option value="divide">Thương</option>
+        </select>
+    </div>
+    <br />
+    <button type="submit">Tính toán</button>
+</form>
+
+@if (ViewData.ModelState.IsValid && Model.Operation != null)
+{
+    <h3>Kết quả:</h3>
+    <p>@Model.Number1 @(Model.Operation switch { "add" => "+", "subtract" => "-", "multiply" => "x", "divide" => "/" }) @Model.Number2 = @Model.Result</p>
+}
