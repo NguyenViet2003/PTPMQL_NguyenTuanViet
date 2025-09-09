@@ -15,7 +15,6 @@ namespace DemoMVC.Controllers
         [HttpPost]
         public IActionResult Index(Bmi model)
         {
-            // Kiểm tra tính hợp lệ của dữ liệu đầu vào
             if (ModelState.IsValid)
             {
                 // Kiểm tra chiều cao > 0 để tránh chia cho 0
@@ -48,8 +47,7 @@ namespace DemoMVC.Controllers
                 }
             }
 
-            // Luôn trả về View với model, bất kể có lỗi hay không
-            // để người dùng thấy kết quả hoặc lỗi nhập liệu
+            
             return View(model);
         }
     }
