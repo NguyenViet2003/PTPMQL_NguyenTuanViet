@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using DemoMVC.Models;
+using DemoMvc.Models;
 
-namespace DemoMVC.Data
+namespace DemoMvc.Data
 {
     public class ApplicationDbContext : DbContext
     {
@@ -10,5 +10,6 @@ namespace DemoMVC.Data
         }
 
         public DbSet<Person> Person { get; set; }
+        public DbSet<DemoMvc.Models.Employee> Employee { get; set; } = default!;
     }
 }
