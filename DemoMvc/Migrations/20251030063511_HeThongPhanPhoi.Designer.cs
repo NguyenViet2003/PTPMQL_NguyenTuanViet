@@ -2,6 +2,7 @@
 using DemoMvc.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,49 +10,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DemoMvc.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251030063511_HeThongPhanPhoi")]
+    partial class HeThongPhanPhoi
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.9");
-
-            modelBuilder.Entity("DemoMvc.Models.DaiLy", b =>
-                {
-                    b.Property<string>("MaDaiLy")
-                        .HasMaxLength(20)
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("DiaChi")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("DienThoai")
-                        .IsRequired()
-                        .HasMaxLength(15)
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("MaHTPP")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("NguoiDaiDien")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("TenDaiLy")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("MaDaiLy");
-
-                    b.HasIndex("MaHTPP");
-
-                    b.ToTable("DaiLy");
-                });
 
             modelBuilder.Entity("DemoMvc.Models.HeThongPhanPhoi", b =>
                 {
@@ -113,17 +79,6 @@ namespace DemoMvc.Migrations
                         .HasColumnType("TEXT");
 
                     b.HasDiscriminator().HasValue("Employee");
-                });
-
-            modelBuilder.Entity("DemoMvc.Models.DaiLy", b =>
-                {
-                    b.HasOne("DemoMvc.Models.HeThongPhanPhoi", "HeThongPhanPhoi")
-                        .WithMany()
-                        .HasForeignKey("MaHTPP")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("HeThongPhanPhoi");
                 });
 #pragma warning restore 612, 618
         }
