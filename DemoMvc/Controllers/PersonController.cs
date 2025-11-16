@@ -1,15 +1,19 @@
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using DemoMvc.Data;
 using DemoMvc.Models;
+using DemoMvc.Models.Process;
+using OfficeOpenXml;
+using OfficeOpenXml.Style;
+using System.Data;
+using System.IO;
 
 namespace DemoMvc.Controllers
 {
     public class PersonController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly ExcelProcess _excelProcess = new ExcelProcess();
 
         public PersonController(ApplicationDbContext context)
         {
@@ -22,17 +26,6 @@ namespace DemoMvc.Controllers
             return View(await _context.Person.ToListAsync());
         }
 
-        // GET: Person/Details/5
-        public async Task<IActionResult> Details(string id)
-        {
-            if (id == null) return NotFound();
-
-            var person = await _context.Person.FirstOrDefaultAsync(m => m.PersonId == id);
-            if (person == null) return NotFound();
-
-            return View(person);
-        }
-
         // GET: Person/Create
         public IActionResult Create()
         {
@@ -42,7 +35,7 @@ namespace DemoMvc.Controllers
         // POST: Person/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("PersonId,FullName,Address,Email")] Person person)
+        public async Task<IActionResult> Create([Bind("FullName,Address,Email")] Person person)
         {
             if (ModelState.IsValid)
             {
@@ -53,65 +46,105 @@ namespace DemoMvc.Controllers
             return View(person);
         }
 
-        // GET: Person/Edit/5
-        public async Task<IActionResult> Edit(string id)
-        {
-            if (id == null) return NotFound();
-
-            var person = await _context.Person.FindAsync(id);
-            if (person == null) return NotFound();
-
-            return View(person);
-        }
-
-        // POST: Person/Edit/5
+        // ============================
+        // ✅ ACTION UPLOAD EXCEL
+        // ============================
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("PersonId,FullName,Address,Email")] Person person)
+        public async Task<IActionResult> Upload(IFormFile file)
         {
-            if (id != person.PersonId) return NotFound();
+            if (file == null || file.Length == 0)
+            {
+                ModelState.AddModelError("", "Vui lòng chọn file Excel để tải lên!");
+                return View();
+            }
 
-            if (ModelState.IsValid)
+            string fileExtension = Path.GetExtension(file.FileName);
+            if (fileExtension != ".xls" && fileExtension != ".xlsx")
+            {
+                ModelState.AddModelError("", "Chỉ hỗ trợ file Excel (.xls, .xlsx)");
+                return View();
+            }
+
+            var uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Uploads", "Excels");
+            if (!Directory.Exists(uploadPath))
+                Directory.CreateDirectory(uploadPath);
+
+            string fileName = DateTime.Now.ToString("yyyyMMdd_HHmmss") + fileExtension;
+            string filePath = Path.Combine(uploadPath, fileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await file.CopyToAsync(stream);
+            }
+
+            DataTable dt = _excelProcess.ExcelToDataTable(filePath);
+
+            if (dt.Rows.Count == 0)
+            {
+                ModelState.AddModelError("", "File Excel không có dữ liệu!");
+                return View();
+            }
+
+            foreach (DataRow row in dt.Rows)
             {
                 try
                 {
-                    _context.Update(person);
-                    await _context.SaveChangesAsync();
+                    var person = new Person
+                    {
+                        FullName = row[0]?.ToString() ?? string.Empty,
+                        Address = row.Table.Columns.Count > 1 ? row[1]?.ToString() : null,
+                        Email = row.Table.Columns.Count > 2 ? row[2]?.ToString() : null
+                    };
+
+                    if (!string.IsNullOrWhiteSpace(person.FullName))
+                    {
+                        _context.Person.Add(person);
+                    }
                 }
-                catch (DbUpdateConcurrencyException)
+                catch (Exception ex)
                 {
-                    if (!_context.Person.Any(e => e.PersonId == person.PersonId))
-                        return NotFound();
-                    throw;
+                    Console.WriteLine($"Lỗi đọc dòng Excel: {ex.Message}");
+                    continue;
                 }
-                return RedirectToAction(nameof(Index));
             }
-            return View(person);
-        }
 
-        // GET: Person/Delete/5
-        public async Task<IActionResult> Delete(string id)
-        {
-            if (id == null) return NotFound();
-
-            var person = await _context.Person.FirstOrDefaultAsync(m => m.PersonId == id);
-            if (person == null) return NotFound();
-
-            return View(person);
-        }
-
-        // POST: Person/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(string id)
-        {
-            var person = await _context.Person.FindAsync(id);
-            if (person != null)
-            {
-                _context.Person.Remove(person);
-                await _context.SaveChangesAsync();
-            }
+            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+        }
+
+        // ============================
+        // ✅ ACTION DOWNLOAD EXCEL
+        // ============================
+        public IActionResult Download()
+        {
+            var fileName = "PersonList.xlsx";
+
+            using (var excelPackage = new ExcelPackage())
+            {
+                ExcelWorksheet worksheet = excelPackage.Workbook.Worksheets.Add("Sheet 1");
+
+                // 🔹 Header
+                worksheet.Cells["A1"].Value = "PersonID";
+                worksheet.Cells["B1"].Value = "FullName";
+                worksheet.Cells["C1"].Value = "Address";
+                worksheet.Cells["D1"].Value = "Email";
+
+                // 🔹 Lấy dữ liệu
+                var personList = _context.Person.ToList();
+
+                // 🔹 Đổ dữ liệu bắt đầu từ A2
+                worksheet.Cells["A2"].LoadFromCollection(personList, false);
+
+                // 🔹 Xuất file
+                var stream = new MemoryStream(excelPackage.GetAsByteArray());
+
+                return File(
+                    stream,
+                    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    fileName
+                );
+            }
         }
     }
 }

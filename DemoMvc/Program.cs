@@ -1,18 +1,19 @@
 using DemoMvc.Data;
 using Microsoft.EntityFrameworkCore;
+using OfficeOpenXml;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// ✅ Dành cho EPPlus 5–7:
+ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+
 builder.Services.AddControllersWithViews();
 
-// Dùng SQLite thay vì SQL Server
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -21,9 +22,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
-
 app.UseAuthorization();
 
 app.MapControllerRoute(

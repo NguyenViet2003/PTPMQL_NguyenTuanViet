@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h6CEn5oTEKJP+OxRaVXyrttH36smVKHLF2j/9yCOuVU=",
+  "Hash": "/TxfXoR2Bdgxd+YCTVFwXDsyJlL5RAaXHsgzYCGe758=",
   "Source": "DemoMvc",
   "BasePath": "_content/DemoMvc",
   "Mode": "Default",
@@ -2724,6 +2724,174 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_140815.xlsx",
+      "SourceId": "DemoMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\",
+      "BasePath": "_content/DemoMvc",
+      "RelativePath": "Uploads/Excels/20251106_140815#[.{fingerprint}]?.xlsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0b5n149i9g",
+      "Integrity": "ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Excels\\20251106_140815.xlsx"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_141444.xlsx",
+      "SourceId": "DemoMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\",
+      "BasePath": "_content/DemoMvc",
+      "RelativePath": "Uploads/Excels/20251106_141444#[.{fingerprint}]?.xlsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0b5n149i9g",
+      "Integrity": "ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Excels\\20251106_141444.xlsx"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_142415.xlsx",
+      "SourceId": "DemoMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\",
+      "BasePath": "_content/DemoMvc",
+      "RelativePath": "Uploads/Excels/20251106_142415#[.{fingerprint}]?.xlsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0b5n149i9g",
+      "Integrity": "ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Excels\\20251106_142415.xlsx"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_144154.xlsx",
+      "SourceId": "DemoMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\",
+      "BasePath": "_content/DemoMvc",
+      "RelativePath": "Uploads/Excels/20251106_144154#[.{fingerprint}]?.xlsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0b5n149i9g",
+      "Integrity": "ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Excels\\20251106_144154.xlsx"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_145138.xlsx",
+      "SourceId": "DemoMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\",
+      "BasePath": "_content/DemoMvc",
+      "RelativePath": "Uploads/Excels/20251106_145138#[.{fingerprint}]?.xlsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0b5n149i9g",
+      "Integrity": "ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Excels\\20251106_145138.xlsx"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_150127.xlsx",
+      "SourceId": "DemoMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\",
+      "BasePath": "_content/DemoMvc",
+      "RelativePath": "Uploads/Excels/20251106_150127#[.{fingerprint}]?.xlsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0b5n149i9g",
+      "Integrity": "ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Excels\\20251106_150127.xlsx"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_151336.xlsx",
+      "SourceId": "DemoMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\",
+      "BasePath": "_content/DemoMvc",
+      "RelativePath": "Uploads/Excels/20251106_151336#[.{fingerprint}]?.xlsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0b5n149i9g",
+      "Integrity": "ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Excels\\20251106_151336.xlsx"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_151406.xlsx",
+      "SourceId": "DemoMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\",
+      "BasePath": "_content/DemoMvc",
+      "RelativePath": "Uploads/Excels/20251106_151406#[.{fingerprint}]?.xlsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0b5n149i9g",
+      "Integrity": "ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Excels\\20251106_151406.xlsx"
     }
   ],
   "Endpoints": [
@@ -3050,7 +3218,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 06:31:41 GMT"
+          "Value": "Thu, 06 Nov 2025 07:41:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3103,7 +3271,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 06:31:41 GMT"
+          "Value": "Thu, 06 Nov 2025 07:41:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3140,7 +3308,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 06:31:41 GMT"
+          "Value": "Thu, 06 Nov 2025 07:41:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3187,7 +3355,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 06:31:41 GMT"
+          "Value": "Thu, 06 Nov 2025 07:41:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3240,7 +3408,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 06:31:41 GMT"
+          "Value": "Thu, 06 Nov 2025 07:41:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3277,7 +3445,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 06:31:41 GMT"
+          "Value": "Thu, 06 Nov 2025 07:41:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3324,7 +3492,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 06:31:41 GMT"
+          "Value": "Thu, 06 Nov 2025 07:41:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3385,7 +3553,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 06:31:41 GMT"
+          "Value": "Thu, 06 Nov 2025 07:41:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3430,7 +3598,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 06:31:41 GMT"
+          "Value": "Thu, 06 Nov 2025 07:41:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3485,7 +3653,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 06:31:41 GMT"
+          "Value": "Thu, 06 Nov 2025 07:41:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3546,7 +3714,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 06:31:41 GMT"
+          "Value": "Thu, 06 Nov 2025 07:41:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3591,7 +3759,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 06:31:41 GMT"
+          "Value": "Thu, 06 Nov 2025 07:41:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21878,6 +22046,662 @@
         {
           "Name": "integrity",
           "Value": "sha256-JKWeHUaANNuffeRatdc54UCb84RoxjEw/nTq8Mops8Y="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Excels/20251106_140815.0b5n149i9g.xlsx",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_140815.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Nov 2025 07:08:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0b5n149i9g"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Excels/20251106_140815.xlsx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Excels/20251106_140815.xlsx",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_140815.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Nov 2025 07:08:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Excels/20251106_141444.0b5n149i9g.xlsx",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_141444.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Nov 2025 07:14:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0b5n149i9g"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Excels/20251106_141444.xlsx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Excels/20251106_141444.xlsx",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_141444.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Nov 2025 07:14:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Excels/20251106_142415.0b5n149i9g.xlsx",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_142415.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Nov 2025 07:24:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0b5n149i9g"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Excels/20251106_142415.xlsx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Excels/20251106_142415.xlsx",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_142415.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Nov 2025 07:24:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Excels/20251106_144154.0b5n149i9g.xlsx",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_144154.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Nov 2025 07:41:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0b5n149i9g"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Excels/20251106_144154.xlsx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Excels/20251106_144154.xlsx",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_144154.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Nov 2025 07:41:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Excels/20251106_145138.0b5n149i9g.xlsx",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_145138.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Nov 2025 07:51:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0b5n149i9g"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Excels/20251106_145138.xlsx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Excels/20251106_145138.xlsx",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_145138.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Nov 2025 07:51:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Excels/20251106_150127.0b5n149i9g.xlsx",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_150127.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Nov 2025 08:01:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0b5n149i9g"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Excels/20251106_150127.xlsx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Excels/20251106_150127.xlsx",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_150127.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Nov 2025 08:01:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Excels/20251106_151336.0b5n149i9g.xlsx",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_151336.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Nov 2025 08:13:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0b5n149i9g"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Excels/20251106_151336.xlsx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Excels/20251106_151336.xlsx",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_151336.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Nov 2025 08:13:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Excels/20251106_151406.0b5n149i9g.xlsx",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_151406.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Nov 2025 08:14:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0b5n149i9g"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Excels/20251106_151406.xlsx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Excels/20251106_151406.xlsx",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PTPMQL_NguyenViet\\DemoMvc\\wwwroot\\Uploads\\Excels\\20251106_151406.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5747"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Nov 2025 08:14:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEQ6rW9oY3WzNYp9tRnuaZ4QIBMcbTY1sndQRwKe36E="
         }
       ]
     }

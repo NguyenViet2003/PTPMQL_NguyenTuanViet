@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace DemoMVC.Models
+namespace DemoMvc.Models
 {
     public class Bmi
     {

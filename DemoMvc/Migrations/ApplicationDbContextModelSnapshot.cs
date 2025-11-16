@@ -71,8 +71,9 @@ namespace DemoMvc.Migrations
 
             modelBuilder.Entity("DemoMvc.Models.Person", b =>
                 {
-                    b.Property<string>("PersonId")
-                        .HasColumnType("TEXT");
+                    b.Property<int>("PersonId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Address")
                         .IsRequired()
